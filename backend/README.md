@@ -1,4 +1,4 @@
-### Running the back end
+## Running the back end
 
 The back end requires Java 8, and can be run from the `backend` directory with the command `./run.sh`
 

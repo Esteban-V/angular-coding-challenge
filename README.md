@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### Running the back end
+## Running the back end
 
 The back end requires Java 8, and can be run from the `backend` directory with the command `./run.sh`
 

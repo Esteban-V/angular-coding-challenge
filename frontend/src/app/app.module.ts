@@ -8,6 +8,7 @@ import { ApiProvider } from './core/providers/server';
 import { HomeComponent } from './home/home.component';
 import { TableComponent } from './table/table.component';
 import { TableRowComponent } from './table/table-row/table-row.component';
+import { ToastNoAnimationModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TableRowComponent } from './table/table-row/table-row.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ToastNoAnimationModule.forRoot(),
   ],
   exports: [BrowserModule],
   providers: [ApiProvider],
