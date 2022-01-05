@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  /*Colors*/
+  --main-color: #aeb2b5;
+  --dark-color: #65686c;
+  --light-color: #f5f9ff;
+  --contrast-color: #d18c8c;
+
+  /*Font*/
+  --h2-font-size: 2rem;
+  --big-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.8rem;
+  --smaller-font-size: 0.75rem;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-weight: 300 !important;
+}
+
+.main-color {
+  color: var(--dark-color) !important;
+}
+
+.light-color {
+  color: var(--dark-color) !important;
+}
+
+.big-text {
+  font-size: var(--big-font-size) !important;
+}
+
+.normal-text {
+  font-size: var(--normal-font-size) !important;
+}
+
+.small-text {
+  font-size: var(--small-font-size) !important;
+}
+
+.thin-text {
+  font-weight: 300 !important;
+}
+
+.bold-text {
+  font-weight: 600 !important;
+}
+
+.sorted {
+  color: var(--dark-color) !important;
+  background-color: var(--light-color);
+}
